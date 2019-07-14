@@ -68,6 +68,6 @@ def main():
                     if sys.argv[2] == "-c":
                         timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime(int(timestamp)))
                         delim = ","
-                print("%s%s%s%s%s%s%s%s" % (timestamp, delim, delim, compname, delim, profile_name, delim, file_path))
+                print("%s%sBAM%s%s%s%s%s%s" % (timestamp, delim, delim, compname, delim, profile_name, delim, file_path))
 if __name__ == '__main__':
     main()
